@@ -13,8 +13,8 @@ function Tower({ floors, rooms, litIndices, clipPath }) {
                 style={{
                     width: "max-content",
                     display: "grid",
-                    gridTemplateColumns: `repeat(${rooms}, 75px)`,
-                    gridTemplateRows: `repeat(${floors}, 50px)`,
+                    gridTemplateColumns: `repeat(${rooms}, 50px)`,
+                    gridTemplateRows: `repeat(${floors}, 75px)`,
                     border: "5px solid black",
                     height: "max-content",
                 }}
