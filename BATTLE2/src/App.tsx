@@ -11,6 +11,9 @@ function App() {
             <D9 />
             <div className="flex flex-col items-center -z-20 rounded-md shadow-inner border p-4 h-[600px]">
                 <Header />
+                <div className="absolute -z-10">
+                    <D3 scale={0.5} />
+                </div>
                 <div className="relative">
                     <div className="animate-bounce">
                         <FootBall />

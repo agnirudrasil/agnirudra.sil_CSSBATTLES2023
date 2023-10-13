@@ -4,8 +4,9 @@ const Rings: React.FC<{
 }> = ({ style, left }) => {
     return (
         <div
-            className="absolute bg-white"
+            className="absolute  bg-[#009F74]"
             style={{
+                animationName: left ? "motion-left" : "motion-right",
                 animationDuration: "3s",
                 animationIterationCount: "infinite",
                 animationDirection: "alternate",
