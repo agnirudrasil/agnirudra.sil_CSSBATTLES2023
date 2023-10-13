@@ -5,11 +5,7 @@ export const D3 = () => {
     return (
         <div>
             <div className="h-[100px] relative w-[400px] flex justify-center">
-                <img
-                    className="h-[100px] z-10"
-                    src="/public/sun.png"
-                    alt="sun"
-                />
+                <img className="h-[100px] z-10" src="/sun.png" alt="sun" />
             </div>
             <div className="flex">
                 <div className="relative w-[200px] h-[400px]">
